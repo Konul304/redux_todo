@@ -3,7 +3,7 @@ const NewTodoForm = ({ value, updateText, handleAction }) => {
       <label className="d-flex align-items-baseline justify-content-center">
         <input 
         className="mt-5 me-2 p-1"
-          placeholer='new todo'
+          placehodler='new todo'
           value={value}
           onChange={(e) => updateText(e.target.value)}
         />
