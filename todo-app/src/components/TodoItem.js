@@ -13,9 +13,9 @@ const TodoItem = ({ id, text, completed }) => {
           onChange={() => dispatch(toggleComplete({ id }))}
         />
         <span className='text-center ms-1'>{text}</span>
-        <span id='close' className='btn  ps-1 pe-1 pt-0 pb-0 ms-2' onClick={() => dispatch(removeTodo({ id }))}>&times;</span>
+        <span id='close' className='btn ps-1 pe-1 pt-0 pb-0 ms-2' onClick={() => dispatch(removeTodo({ id }))}>&times;</span>
       </div>
-    </li>     
+    </li>
   );
 };
 

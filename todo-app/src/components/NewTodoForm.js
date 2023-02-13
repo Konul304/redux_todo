@@ -7,7 +7,7 @@ const NewTodoForm = ({ value, updateText, handleAction }) => {
           value={value}
           onChange={(e) => updateText(e.target.value)}
         />
-        <button className="btn btn-info" onClick={handleAction}>Add to do</button>
+        <button className="btn btn-primary" onClick={handleAction}>Add to do</button>
       </label>
     );
   };
