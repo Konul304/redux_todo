@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className='App'>
+    <div className='App bg-light min-vh-100'>
       <NewTodoForm
         value={text}
         updateText={setText}
