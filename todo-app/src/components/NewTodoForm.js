@@ -7,13 +7,13 @@ const NewTodoForm = ({ value, updateText, handleAction }) => {
     return (
       <label className="d-flex align-items-baseline justify-content-center">
         <input 
-        className="mt-5 me-2 p-1"
+        className="mt-5 me-2 p-1 border-0 rounded"
           placehodler='new todo'
           value={value}
           onKeyPress={handleKeypress}
           onChange={(e) => updateText(e.target.value)}
         />
-        <button className="btn btn-info text-light"  onClick={handleAction}>Add to do</button>
+        <button className="btn btn-primary text-light"  onClick={handleAction}>Add to do</button>
       </label>
     );
   };

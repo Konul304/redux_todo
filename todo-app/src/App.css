@@ -1,9 +1,10 @@
 .App {
   text-align: center;
-  background-color: #8f4df8
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 }
 
 #close{
+  transform: scale(2);
   cursor: pointer;
 }
 
@@ -12,10 +13,6 @@ li{
   font-size: medium;
 }
 
-#checkbox{
-  transform: scale(2);
-  margin-right: 11px;
-}
 
 input:focus{
   outline: none;

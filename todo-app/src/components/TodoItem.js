@@ -15,6 +15,7 @@ const TodoItem = ({ id, text, completed }) => {
       <div className='d-flex justify-content-center align-items-baseline'>
         <input id='checkbox'
           type='checkbox'
+          className='form-check-input'
           checked={completed}
           onChange={() => dispatch(toggleComplete({ id }))}
         />
