@@ -13,7 +13,7 @@ const NewTodoForm = ({ value, updateText, handleAction }) => {
           onKeyPress={handleKeypress}
           onChange={(e) => updateText(e.target.value)}
         />
-        <button className="btn btn-primary"  onClick={handleAction}>Add to do</button>
+        <button className="btn btn-info text-light"  onClick={handleAction}>Add to do</button>
       </label>
     );
   };

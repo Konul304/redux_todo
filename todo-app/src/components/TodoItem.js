@@ -18,8 +18,8 @@ const TodoItem = ({ id, text, completed }) => {
           checked={completed}
           onChange={() => dispatch(toggleComplete({ id }))}
         />
-        <input value={newText} onChange={handleChange} className='text-center ms-1 border-0'/>
-        <span id='close' className='btn ps-1 pe-1 pt-0 pb-0 ms-2' onClick={() => dispatch(removeTodo({ id }))}>&times;</span>
+        <input value={newText} onChange={handleChange} className='text-center text-nowrap text-light ms-1 border-0 bg-transparent'/>
+        <span id='close' className='btn ps-1 pe-1 pt-0 pb-0 ms-2 text-light' onClick={() => dispatch(removeTodo({ id }))}>&times;</span>
       </div>
     </li>
   );
